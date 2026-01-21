@@ -1,0 +1,16 @@
+Preschool,No-HS-Diploma,No-Degree,*
+1st-4th,No-HS-Diploma,No-Degree,*
+5th-6th,No-HS-Diploma,No-Degree,*
+7th-8th,No-HS-Diploma,No-Degree,*
+9th,No-HS-Diploma,No-Degree,*
+10th,No-HS-Diploma,No-Degree,*
+11th,No-HS-Diploma,No-Degree,*
+12th,No-HS-Diploma,No-Degree,*
+HS-grad,HS-Diploma,No-Degree,*
+Some-college,HS-Diploma,No-Degree,*
+Assoc-voc,HS-Diploma,No-Degree,*
+Assoc-acdm,HS-Diploma,No-Degree,*
+Bachelors,College-Degree,Degree,*
+Masters,Graduate-Degree,Degree,*
+Prof-school,Graduate-Degree,Degree,*
+Doctorate,Graduate-Degree,Degree,*

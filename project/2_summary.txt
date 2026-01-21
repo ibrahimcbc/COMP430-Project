@@ -1,0 +1,67 @@
+Adult:
+Strip the trailing periods from income.
+Handle missing values in workclass, occupation, native-country as Unknown (extra category for model to learn)
+education-num and education are the same thing.
+
+QI selection for adult:
+age: public
+workclass: public
+fnlwgt: drop
+education: public
+education-num: drop
+marital-status: public
+occupation: public
+relationship: private
+race: public
+sex: public
+capital-gain: private
+capital-loss: private
+hours-per-week: private
+native-country: public
+income: target
+
+Bank Marketing:
+Handle missing values in education, job as Unknown
+
+QI selection for Bank Marketing:
+age: public
+job: public
+martial: public
+education: public
+default: private
+balance: private
+housing: private
+loan: private
+contact: drop
+day_of_week: drop
+month: drop
+duration: drop
+campaign: drop
+pdays: drop
+previous: drop
+poutcome: drop
+y: target
+
+German Credit:
+Name the columns properly
+1: checking_status: private
+2: duration: private
+3: credit_history: private
+4: purpose: private
+5: credit_amount: private
+6: savings_status: private
+7: employment: public
+8: installment_rate: private
+9: personal_status: public
+10: other_parties: private
+11: residence_since: private
+12: property: private
+13: age: public
+14: other_payment_plans: private
+15: housing: public
+16: existing_credits: private
+17: job: public
+18: num_dependents: private
+19: telephone: public
+20: foreign_worker: public
+class: target

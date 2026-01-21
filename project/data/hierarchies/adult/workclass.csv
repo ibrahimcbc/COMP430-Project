@@ -1,0 +1,9 @@
+Private,Private,Working,*
+Self-emp-not-inc,Self-Employed,Working,*
+Self-emp-inc,Self-Employed,Working,*
+Federal-gov,Government,Working,*
+Local-gov,Government,Working,*
+State-gov,Government,Working,*
+Without-pay,Not-Working,Not-Working,*
+Never-worked,Not-Working,Not-Working,*
+Unknown,Unknown,Unknown,*

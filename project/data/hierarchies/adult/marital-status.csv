@@ -1,0 +1,7 @@
+Married-civ-spouse,Married,Married,*
+Married-spouse-absent,Married,Married,*
+Married-AF-spouse,Married,Married,*
+Divorced,Previously-Married,Not-Married,*
+Separated,Previously-Married,Not-Married,*
+Widowed,Previously-Married,Not-Married,*
+Never-married,Never-Married,Not-Married,*

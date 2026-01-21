@@ -1,0 +1,12 @@
+management,White-Collar,Working,*
+technician,White-Collar,Working,*
+admin.,White-Collar,Working,*
+blue-collar,Blue-Collar,Working,*
+services,Blue-Collar,Working,*
+housemaid,Blue-Collar,Working,*
+self-employed,Self-Employed,Working,*
+entrepreneur,Self-Employed,Working,*
+retired,Not-Working,Not-Working,*
+unemployed,Not-Working,Not-Working,*
+student,Not-Working,Not-Working,*
+Unknown,Unknown,Unknown,*

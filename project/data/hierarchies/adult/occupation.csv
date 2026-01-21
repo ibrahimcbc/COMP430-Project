@@ -1,0 +1,15 @@
+Prof-specialty,White-Collar,*
+Exec-managerial,White-Collar,*
+Tech-support,White-Collar,*
+Adm-clerical,White-Collar,*
+Sales,White-Collar,*
+Craft-repair,Blue-Collar,*
+Machine-op-inspct,Blue-Collar,*
+Transport-moving,Blue-Collar,*
+Handlers-cleaners,Blue-Collar,*
+Farming-fishing,Blue-Collar,*
+Protective-serv,Service,*
+Priv-house-serv,Service,*
+Other-service,Service,*
+Armed-Forces,Other,*
+Unknown,Unknown,*

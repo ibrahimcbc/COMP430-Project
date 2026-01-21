@@ -1,0 +1,10 @@
+A40,Vehicle,Purchase,*
+A41,Vehicle,Purchase,*
+A42,Goods,Purchase,*
+A43,Goods,Purchase,*
+A44,Goods,Purchase,*
+A45,Home,Purchase,*
+A46,Personal,Non-Purchase,*
+A48,Personal,Non-Purchase,*
+A49,Business,Non-Purchase,*
+A410,Other,Other,*
