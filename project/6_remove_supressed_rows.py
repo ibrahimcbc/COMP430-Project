@@ -14,7 +14,11 @@ for dataset in datasets:
 
             df = pd.read_csv(f"data/anonymized/{filename}", keep_default_na=False)
 
-            # Remove rows where age == "*" (indicates full suppression)
-            df = df[df["age"].astype(str) != "*"]
+            # Check all columns except the last
+            feature_cols = df.columns[:-1]
+            all_star = df[feature_cols].apply(lambda row: all(str(val) == "*" for val in row), axis=1)
+            df = df[~all_star]
 
             df.to_csv(f"data/anonymized_clean/{filename}", index=False)
+
+print("Done.")
