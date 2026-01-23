@@ -119,7 +119,7 @@ def save_png_table(dataset, results):
                 if '✓ PASS' in table_data[i][j]:
                     cell.set_facecolor('#81C784')
                     cell.set_text_props(weight='bold', color='white')
-                elif '❌' in table_data[i][j]:
+                elif 'X NOT PASS' in table_data[i][j]:
                     cell.set_facecolor('#E57373')
                     cell.set_text_props(weight='bold', color='white')
     
